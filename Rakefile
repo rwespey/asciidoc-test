@@ -1,6 +1,6 @@
 require 'rake-jekyll'
 
-task :default => :Jekyll:GitDeployTask
+task :default => Rake::Jekyll::GitDeployTask
 
 # This task builds the Jekyll site and deploys it to a remote Git repository.
 # It's preconfigured to be used with GitHub and Travis CI.
